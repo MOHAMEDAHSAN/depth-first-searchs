@@ -45,6 +45,9 @@ Visit node 3
 
 Now, the Stack becomes empty, which means we have visited all the nodes, and our DFS traversal ends.
 
+<BR>
+
+
 <h3>Algorithm:</h3>
 <B><ol>
  <li>Construct a Graph with Nodes and Edges</li>
@@ -54,6 +57,8 @@ Now, the Stack becomes empty, which means we have visited all the nodes, and our
  <li>If Not Visited, add it to the STACK. Else Call The Function Again Until No more nodes needs to be visited.</li>
 </ol></B>
 <hr>
+
+<BR>
 
 <h3>Code :</h3>
 
@@ -82,6 +87,8 @@ print(traversed_path)
 print(graph)
 ```
 
+<BR>
+
 <hr>
 <h3>Sample Input</h3>
 <hr>
@@ -102,6 +109,8 @@ F H <BR>
 
 <hr>
 
+<BR>
+
 <hr>
 <h3>Sample Input</h3>
 <hr>
@@ -112,11 +121,17 @@ F H <BR>
 2 3 <BR>
 2 4 <BR>
 <hr>
+
+<BR>
+
 <h3>Sample Output</h3>
 <hr>
 ['0', '1', '2', '3', '4']
 
 <hr>
+
+<BR>
+
 <h3>Result:</h3>
 <hr>
 <p>Thus,a Graph was constructed and implementation of Depth First Search for the same graph was done successfully.</p>
